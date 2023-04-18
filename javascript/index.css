@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@200;300;400;600;700&display=swap');
+
+body{
+    background-color: rgb(31, 14, 7);
+}
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.green{
+    background-color: rgb(98, 201, 98, 0.8);
+    height: 400px;
+    margin-right: -12px;
+    width: 60px;
+    transform-origin: top;
+    transform: rotateZ(45deg);
+}
+.orange{
+    background-color: rgb(212, 125, 67, 0.8);
+    margin-left: -90px;
+    height: 400px;
+    width: 60px;
+    transform-origin: top;
+    transform: rotateZ(-45deg);
+}
+.light{
+    background-color: rgb(153, 147, 130, 0.8);
+    height: 400px;
+    width: 60px;
+    transform-origin: bottom;
+    transform: rotateZ(45deg);
+}
+.blue{
+    background-color: rgb(29, 110, 163, 0.8);
+    margin-left: -18px;
+    height: 400px;
+    width: 60px;
+    transform-origin: bottom;
+    transform: rotateZ(-45deg);
+}
+.first{
+    margin-bottom: -20px;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.second{
+    margin-top: -45px;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ffont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    line-height: 45px;
+    height: 0%;
+    width: 50%;
+}
+.ffont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+h2{
+    color: white;
+    font-size: 47px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+h3{
+    color: rgb(224, 105, 8);
+    font-size: 46px;
+    margin: 0 2px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
